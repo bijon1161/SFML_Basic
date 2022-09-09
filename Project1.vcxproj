@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2D Shooter game 360.cpp" />
     <ClCompile Include="Shoot the Target.cpp" />
     <ClCompile Include="Shooter game with many projectiles.cpp" />
     <ClCompile Include="Source.cpp" />
