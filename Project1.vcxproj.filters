@@ -24,5 +24,8 @@
     <ClCompile Include="Shoot the Target.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Shooter game with many projectiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
