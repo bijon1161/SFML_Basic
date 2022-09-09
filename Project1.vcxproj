@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Shoot the Target.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="WASD and Mouse.cpp" />
   </ItemGroup>
