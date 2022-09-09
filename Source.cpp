@@ -7,11 +7,11 @@ using namespace sf;
 
 int main()
 {
-    RenderWindow window(VideoMode(800, 600), "My window", Style::Default);
+    RenderWindow window(VideoMode(800, 600), "Moving Circle", Style::Default);
     window.setFramerateLimit(60);
 
     CircleShape circle(50.f);
-    // circle.setFillColor(Color::Red);
+    circle.setFillColor(Color::White);
 
     while (window.isOpen())
     {
@@ -25,10 +25,10 @@ int main()
         }
 
 
-        circle.move(0.3f, 0.f);
+        circle.move(3.f, 0.f);
 
         //draw
-        window.clear(Color::Red);
+        window.clear(Color::Green);
         //draw something
         window.draw(circle);
 
