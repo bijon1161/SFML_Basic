@@ -31,7 +31,11 @@ public:
 		this->HPMax = rand() % 3 + 1;
 		this->HP = this->HPMax;
 
-		this->object.setFillColor(Color::Cyan);
+		int r = rand() % 255;
+		int g = rand() % 255;
+		int b = rand() % 255;
+
+		this->object.setFillColor(Color(r,g,b));
 
 		this->object.setSize(Vector2f(50.f, 50.f));
 
@@ -65,8 +69,8 @@ int main()
 
 	//hp bar
 	RectangleShape hpbar;
-	hpbar.setFillColor(Color::Cyan);
-	hpbar.setSize(Vector2f(200.f, 10.f));
+	hpbar.setFillColor(Color::Red);
+	hpbar.setSize(Vector2f(200.f, 20.f));
 	hpbar.setPosition(window.getSize().x / 2 + 50.f, 20.f);
 	//framerate
 	Clock clock;
@@ -86,9 +90,9 @@ int main()
 
 	Text gameOverText;
 	gameOverText.setFont(font);
-	gameOverText.setCharacterSize(30);
+	gameOverText.setCharacterSize(40);
 	gameOverText.setFillColor(Color::Red);
-	gameOverText.setPosition(window.getSize().x / 2, window.getSize().y / 2);
+	gameOverText.setPosition(window.getSize().x / 2-60.f, window.getSize().y / 2);
 	gameOverText.setString("GAME OVER!");
 
 	//Player init
