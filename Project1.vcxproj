@@ -140,9 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="2D Shooter game 360.cpp" />
+    <ClCompile Include="8_puzzle.cpp" />
+    <ClCompile Include="game_moving_ball.cpp" />
     <ClCompile Include="Shoot the Target.cpp" />
     <ClCompile Include="Shooter game with many projectiles.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Space Shooter Game.cpp" />
     <ClCompile Include="Textures and Spirit.cpp" />
     <ClCompile Include="WASD and Mouse.cpp" />
   </ItemGroup>

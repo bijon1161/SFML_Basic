@@ -33,5 +33,14 @@
     <ClCompile Include="2D Shooter game 360.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Space Shooter Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="8_puzzle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_moving_ball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
