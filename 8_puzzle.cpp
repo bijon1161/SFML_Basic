@@ -5,13 +5,13 @@ using namespace sf;
 
 int main()
 {
-	RenderWindow app(VideoMode(225, 225), "8-Puzzle!");
+	RenderWindow app(VideoMode(690, 690), "8-Puzzle!");
 	app.setFramerateLimit(60);
-
+	
 	Texture t;
-	t.loadFromFile("E:\\SFML\\Project1\\images\\8_4.png");
+	t.loadFromFile("E:\\SFML\\Project1\\images\\8_p.png");
 
-	int w = 75;
+	int w = 230;
 	int grid[6][6] = { 0 };
 	Sprite sprite[20];
 
